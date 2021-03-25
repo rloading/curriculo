@@ -68,6 +68,10 @@ i {
   color: #ccc5b9;
 }
 
+i:hover {
+  color: #eb5e28;
+}
+
 section {
   display: block;
   flex-direction: column;
@@ -116,11 +120,7 @@ section {
   justify-content: flex-end;
 }
 
-.pro p {
-  display: flex;
-  color: #fffcf2;
-  font-size: 0.7rem;
-}
+
 .pro-1 p,
 .pro-2 p {
   display: flex;
@@ -130,7 +130,7 @@ section {
   max-width: 850px;
 }
 
-section ul {
+.pro, section ul {
   display: flex;
   flex-direction: column;
   color: #fffcf2;
