@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+* {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #403d39, #252422);
+}
+
+.cabecalho {
+  display: flex;
+  height: 20px;
+  background: linear-gradient(45deg, #403d39, #eb5e28);
+}
+
+header {
+  margin-top: 3vh;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 850px;
+}
+
+img {
+  display: flex;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 10vw;
+}
+
+header .sobrenome {
+  color: #ccc5b9;
+}
+
+header .nome {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: #eb5e28;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+header .contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h3 {
+  font-size: 1rem;
+}
+
+header ul {
+  display: flex;
+  margin-top: 2px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+i {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vw;
+  color: #ccc5b9;
+}
+
+section {
+  display: block;
+  flex-direction: column;
+}
+
+.titulo {
+  flex-wrap: wrap;
+  margin-top: 2vh;
+  max-width: 15vw;
+  height: 3vh;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #eb5e28;
+}
+
+.titulo h4 {
+  margin: 2px;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  color: #ccc5b9;
+}
+
+.pro {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 5px solid #eb5e28;
+  margin-left: 18vw;
+  padding: 5px;
+}
+
+.pro-1 {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 5px solid #eb5e28;
+  flex-direction: column;
+  margin-left: 18vw;
+  padding: 5px;
+}
+
+.pro-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 18vw;
+  padding: 5px;
+  justify-content: flex-end;
+}
+
+.pro p {
+  display: flex;
+  color: #fffcf2;
+  font-size: 0.7rem;
+}
+.pro-1 p,
+.pro-2 p {
+  display: flex;
+  color: #fffcf2;
+  font-size: 0.7rem;
+  font-weight: 700;
+  max-width: 850px;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  color: #fffcf2;
+  justify-content: left;
+  font-size: 0.7rem;
+  max-width: 850px;
+}
+
+footer {
+  margin-top: 5vh;
+  display: flex;
+  height: 20px;
+  background: linear-gradient(-45deg, #403d39, #eb5e28);
+  width: 100%;
+}
